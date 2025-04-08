@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from google import genai
 
-client = genai.Client(api_key="AIzaSyD6C9QCbjGa79p_Zava7kAjQdBuxSHZVW8")
+client = genai.Client(api_key="API_KEY")
 
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
